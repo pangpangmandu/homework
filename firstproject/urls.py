@@ -22,5 +22,4 @@ urlpatterns = [
     path('', wordcount.views.home, name="home"),
     path('about/', wordcount.views.about, name="about"),
     path('count/', wordcount.views.count, name="count"),
-    path('facebook/', wordcount.views.facebook, name="facebook"),
 ]

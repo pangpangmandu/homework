@@ -9,7 +9,9 @@
 
 <h1>단어 카운트:</h1>
 <!-- '단어' - '단어나온 횟수' -->
-{% for word, countTotal in dictionary %}
-{{ word }} - {{ countTotal }}
+{% for d in stwd %}
+  {% for ds in d %}
+    {{ds}} 
+  {% endfor %}
 <br>
 {% endfor %}
